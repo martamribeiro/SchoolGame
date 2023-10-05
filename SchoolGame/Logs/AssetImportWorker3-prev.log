@@ -1,0 +1,1164 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/marta/Documents/Unity/SchoolGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+61794
+Successfully changed project path to: C:/Users/marta/Documents/Unity/SchoolGame
+C:/Users/marta/Documents/Unity/SchoolGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13552] Host "[IP] 172.18.157.243 [Port] 0 [Flags] 2 [Guid] 14080077 [EditorId] 14080077 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13552] Host "[IP] 172.18.157.243 [Port] 0 [Flags] 2 [Guid] 14080077 [EditorId] 14080077 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 279.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marta/Documents/Unity/SchoolGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022926 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 667 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 260.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2391ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1881ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (856ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (261ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\Unity\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\Unity\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 278.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3725ms)
+		BeginReloadAssembly (332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (3103ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1000ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (1548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (279ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (736ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.2 MB). Loaded Objects now: 5890.
+Memory consumption went from 218.2 MB to 217.0 MB.
+Total: 9.241700 ms (FindLiveObjects: 0.759000 ms CreateObjectMapping: 0.945300 ms MarkObjects: 6.179900 ms  DeleteObjects: 1.354500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1310.484588 seconds.
+  path: Assets/school/Prefabs/props/showcase.prefab
+  artifactKey: Guid(07f95da47d340af46b603c05bffc1cde) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/showcase.prefab using Guid(07f95da47d340af46b603c05bffc1cde) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b38e01639e452758fe5ee6adfafb5b78') in 0.402597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/school/Prefabs/props/table1.prefab
+  artifactKey: Guid(006691b87ee6ce7429992a2a172ecf29) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/table1.prefab using Guid(006691b87ee6ce7429992a2a172ecf29) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd26959a77a4c9c67216d1f524a9cc8dd') in 0.018441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/school/Prefabs/props/table2.prefab
+  artifactKey: Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/table2.prefab using Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89fc1db5bed5f1438254e3454085f85b') in 0.016911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/school/Prefabs/props/table3.prefab
+  artifactKey: Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/table3.prefab using Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '474b537bc3951780b9f6880113d88655') in 0.017206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/school/Prefabs/props/wall.prefab
+  artifactKey: Guid(d8553808ed1fd2a41982e26a8f099b9a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/wall.prefab using Guid(d8553808ed1fd2a41982e26a8f099b9a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaccdda4b6adaa3d527c64a48fc9199d') in 0.040258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/LICENSE.md
+  artifactKey: Guid(00999fd020bde754ab4ae5f8a5205844) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/LICENSE.md using Guid(00999fd020bde754ab4ae5f8a5205844) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50c6a2974a02962580b7d822168d4382') in 0.013162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/school/props/sheet1.fbx
+  artifactKey: Guid(23b1d8473c4b7404ea0dd7c937deb666) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/sheet1.fbx using Guid(23b1d8473c4b7404ea0dd7c937deb666) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f3dd37f7a8b9768bc3fbada6a034f13') in 0.113596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/school/props/computer.fbx
+  artifactKey: Guid(19da5e77d15e6b246ae6557f5f4c3cbe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/computer.fbx using Guid(19da5e77d15e6b246ae6557f5f4c3cbe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa09d53911b256217170667b767ebc58') in 0.044056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/school/Prefabs/props/wall4.prefab
+  artifactKey: Guid(2d0d657c1182735489e24a5ce302b99c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/wall4.prefab using Guid(2d0d657c1182735489e24a5ce302b99c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0f79699033ba98579c0924dd2cc3503') in 0.013638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/school/Prefabs/road/doroga — krest.prefab
+  artifactKey: Guid(bc6109ee673f0a244981c84f7b064a43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/road/doroga — krest.prefab using Guid(bc6109ee673f0a244981c84f7b064a43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfeace1b598a3d4281f75f1a1e0195cf') in 0.016229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/Materials/M_Armature_Arms.mat
+  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cce46b5fa95ea04c6c08280d6152eca2') in 0.076956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/school/props/bus.fbx
+  artifactKey: Guid(7f54a7cb15b227045b46f8cf3ff5ea83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/bus.fbx using Guid(7f54a7cb15b227045b46f8cf3ff5ea83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b351f2820e09c837874d4fe51647d73') in 0.043600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/school/props/locker1.fbx
+  artifactKey: Guid(a009d4148ee08684d917c68693f75228) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/locker1.fbx using Guid(a009d4148ee08684d917c68693f75228) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f907609f9c25188ca510d66e61336796') in 0.057090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b009d68b65e4037c99e4e6070292b962') in 0.036332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Playground/LightingData.asset
+  artifactKey: Guid(51e8050f26ab504469d218c927558c5e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/Playground/LightingData.asset using Guid(51e8050f26ab504469d218c927558c5e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7f5e73d2b493e210c11979dec56e37e') in 0.015804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/school/Prefabs/props/book2.prefab
+  artifactKey: Guid(72c1249698983ad4988f693663fa1e21) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/book2.prefab using Guid(72c1249698983ad4988f693663fa1e21) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '397bcd6b67dea58ec35483dacd57b774') in 0.021698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/school/Prefabs/props/sheet4.prefab
+  artifactKey: Guid(2335e4e4480899f46aabd539af49b014) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/sheet4.prefab using Guid(2335e4e4480899f46aabd539af49b014) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3893a2f8e8799105d4b4747bcdc0e879') in 0.018915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/school/Prefabs/props/computer2.prefab
+  artifactKey: Guid(c9909a6c1892fd04cb840ad5329e558e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/computer2.prefab using Guid(c9909a6c1892fd04cb840ad5329e558e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4f59d0647e1a7f2496abc191ac90762') in 0.018318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/school/props/book15.fbx
+  artifactKey: Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/book15.fbx using Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd91eab3bd07e822cf085e815b6140fca') in 0.042404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/EyeIris EYE.mat
+  artifactKey: Guid(ee81a2af1d7586d4bacad2dec4e070f9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/EyeIris EYE.mat using Guid(ee81a2af1d7586d4bacad2dec4e070f9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f7a0954ef3a57497ccdf74ff088f063') in 0.039339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/Hair HAIR.mat
+  artifactKey: Guid(5baeb2d355ccfd3469343ac170d2d6eb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/Hair HAIR.mat using Guid(5baeb2d355ccfd3469343ac170d2d6eb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff4b3996db6a7134232fa25c4bd67858') in 0.023844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/Bod SKIN.mat
+  artifactKey: Guid(e21a5c49510a84f41bb10b8916c09b81) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/Bod SKIN.mat using Guid(e21a5c49510a84f41bb10b8916c09b81) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7756750968e6a20e22290aafb2ab1f36') in 0.019064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/school/Prefabs/road/floor1.prefab
+  artifactKey: Guid(be4105263a3576a4a9d8bb22a5f5ca29) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/road/floor1.prefab using Guid(be4105263a3576a4a9d8bb22a5f5ca29) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8118592be0bb19e2c328808054422801') in 0.020484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/README.md
+  artifactKey: Guid(1021e7e6d453b9f4fb2f46a130425deb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/README.md using Guid(1021e7e6d453b9f4fb2f46a130425deb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00695fb9858ea6a5ba0d6cc0cc331687') in 0.009388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/school/props/wall4 (1).fbx
+  artifactKey: Guid(e2c12cc399276f34997617080b02d780) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/wall4 (1).fbx using Guid(e2c12cc399276f34997617080b02d780) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7974bb628aa6063e12b6ea50783602b1') in 0.034753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/Sfx/Player_Footstep_10.wav
+  artifactKey: Guid(a3194b8bbc96ef84fab1f98f4b7dae3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Character/Sfx/Player_Footstep_10.wav using Guid(a3194b8bbc96ef84fab1f98f4b7dae3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e589eb4553afe3c3dbee523608b36566') in 0.089310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/school/props/book7.fbx
+  artifactKey: Guid(c33f36ac04fd4ef4eb1421d50ecb1d83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/book7.fbx using Guid(c33f36ac04fd4ef4eb1421d50ecb1d83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f37db79613d13a7b93b8aed98293113f') in 0.041369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Novacorp Studios/Materials/Color Shades/Opaque/Gray/Anchor Gray.mat
+  artifactKey: Guid(1daf08f0fccfde24aa6187d2c25f4c9a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Materials/Color Shades/Opaque/Gray/Anchor Gray.mat using Guid(1daf08f0fccfde24aa6187d2c25f4c9a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79741d84b94adac0f5abbc4aa647395b') in 0.028589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/school/Prefabs/props/wall4 (2).prefab
+  artifactKey: Guid(4af663313fdc5d04889a6710948329c3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/wall4 (2).prefab using Guid(4af663313fdc5d04889a6710948329c3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '392bce0dcb1eae13ac3fca876d26c432') in 0.021586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/FBX/Aika Highschool Uniform.fbx
+  artifactKey: Guid(6f046a28acb55a743ac3d732fcac0054) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/FBX/Aika Highschool Uniform.fbx using Guid(6f046a28acb55a743ac3d732fcac0054) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '174678d0bbd600b3e660d827203742d5') in 0.701629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/Format/Runtime/VRMShaders.VRM10.Format.Runtime.asmdef
+  artifactKey: Guid(bce005214fa49654d93927908c15b1f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/Format/Runtime/VRMShaders.VRM10.Format.Runtime.asmdef using Guid(bce005214fa49654d93927908c15b1f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99e9e164f05992c1155344fc4f7f1e24') in 0.018010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/PreShaderPropExporter.cs
+  artifactKey: Guid(50935dd2f9f3fa445a687f30d4dd663b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/PreShaderPropExporter.cs using Guid(50935dd2f9f3fa445a687f30d4dd663b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a4befed6706b20c9fb9c78dba981106') in 0.019020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/ShaderProps.cs
+  artifactKey: Guid(279964035c950b24cb745511298855dd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/ShaderProps.cs using Guid(279964035c950b24cb745511298855dd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e85d8081d8c2082df83dabeea36bdc4d') in 0.010204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/HairBack HAIR.mat
+  artifactKey: Guid(fdfb76bb5cd69ab489efdd151d53fc30) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/HairBack HAIR.mat using Guid(fdfb76bb5cd69ab489efdd151d53fc30) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c537584fc38a16577dd55881d2786689') in 0.016079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/school/Prefabs/props/book13.prefab
+  artifactKey: Guid(a2d69f66b9cfcbb41adcd641f6757042) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/book13.prefab using Guid(a2d69f66b9cfcbb41adcd641f6757042) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b5c7c448dae67c7235d0630b9027dff') in 0.022431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '292496f36f2a9e4dd4377afc7a191513') in 0.009690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/school/Prefabs/props/computer.prefab
+  artifactKey: Guid(95b7030fe576ba84e930b6af82eb2738) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/computer.prefab using Guid(95b7030fe576ba84e930b6af82eb2738) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '207f8a7902f921e8e0623db8ee7f9965') in 0.015484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/school/Prefabs/props/board2_2.prefab
+  artifactKey: Guid(f16c1a01fe11a1c4499b6704e5007d33) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/board2_2.prefab using Guid(f16c1a01fe11a1c4499b6704e5007d33) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83e4bcd4214f07777a8306290a004baa') in 0.035635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/VRMShaders.VRM.IO.Runtime.asmdef
+  artifactKey: Guid(301b251fd9834274c9228e0532f444f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/VRMShaders.VRM.IO.Runtime.asmdef using Guid(301b251fd9834274c9228e0532f444f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7b03300d9285db5d350a73413ba6ea1') in 0.011263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/school/Prefabs/props/book3.prefab
+  artifactKey: Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/book3.prefab using Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '144b0321c96f6bbc99ca247983147eb9') in 0.017894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/school/Prefabs/props/tray.prefab
+  artifactKey: Guid(985e26fbc81357349904fd1b56692048) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/tray.prefab using Guid(985e26fbc81357349904fd1b56692048) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43fa2d64d2abbf1cd516923c9ce54142') in 0.019356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/VRMShaders.GLTF.IO.Editor.asmdef
+  artifactKey: Guid(7da8a75dcade2144aab699032d7d7987) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/VRMShaders.GLTF.IO.Editor.asmdef using Guid(7da8a75dcade2144aab699032d7d7987) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b154b1d3d000bc90008dc6b407e0c9f7') in 0.009812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/FaceMouth FACE.mat
+  artifactKey: Guid(a508e6b714686bf4a83dc8b6738261f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Materials/FaceMouth FACE.mat using Guid(a508e6b714686bf4a83dc8b6738261f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd49b6c9e4a7851b7fbf85898ab45d93f') in 0.016659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs
+  artifactKey: Guid(30f43d5b7d6b4184fb775a315b835365) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs using Guid(30f43d5b7d6b4184fb775a315b835365) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7369b62522f23e1daccccd060dde2fd9') in 0.007067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Resources/UniGLTF/StandardMapImporter.shader
+  artifactKey: Guid(fa5d94522a5d93442a7515698d7ab799) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Resources/UniGLTF/StandardMapImporter.shader using Guid(fa5d94522a5d93442a7515698d7ab799) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b3c27ca5e833fa5c1d86fa0313d29e9') in 0.031647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Transparent_Cutout.cs
+  artifactKey: Guid(844490f13976543478d82efe28251941) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Transparent_Cutout.cs using Guid(844490f13976543478d82efe28251941) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a795f5149f04b323444c8fe782192735') in 0.010583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Color.cs
+  artifactKey: Guid(4f91421c5846d5d48933d2ee4ffeeceb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Color.cs using Guid(4f91421c5846d5d48933d2ee4ffeeceb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0ec043db64098ce5de982106252b906') in 0.006872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs
+  artifactKey: Guid(20719e2944224be681a607b6db951720) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs using Guid(20719e2944224be681a607b6db951720) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db58f81c76435c630c5406c915e484c6') in 0.007931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs
+  artifactKey: Guid(e4e64b1835ca4cd2b682a6bda572b8fb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs using Guid(e4e64b1835ca4cd2b682a6bda572b8fb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be619ebda1c03e36f9592346867037eb') in 0.007865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/MToon10Migrator.cs
+  artifactKey: Guid(920db45663454ba8b8debaf2aeb7f5c9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/MToon10Migrator.cs using Guid(920db45663454ba8b8debaf2aeb7f5c9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dada53f66352e1d4c00ae8318a823bd3') in 0.009201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/UniGLTF_UniUnlit.cs
+  artifactKey: Guid(ad4b6b115b83ecd48a513f697afc95f0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/UniGLTF_UniUnlit.cs using Guid(ad4b6b115b83ecd48a513f697afc95f0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b47993d2db1c1ee4f093fce59e7bec10') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Resources/UniGLTF/NormalMapExporter.shader
+  artifactKey: Guid(53762a37d0a403e42a4921e3e3b84915) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Resources/UniGLTF/NormalMapExporter.shader using Guid(53762a37d0a403e42a4921e3e3b84915) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f9605be537ac4271842652442199500') in 0.012259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs
+  artifactKey: Guid(9c52ff07a0834bdc8f4c8d6c7f9a634f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs using Guid(9c52ff07a0834bdc8f4c8d6c7f9a634f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0930a5406f628dc5f9c3495c21d40b78') in 0.009731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Standard.cs
+  artifactKey: Guid(54043e349b047bf4b8f127cd919a757d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Standard.cs using Guid(54043e349b047bf4b8f127cd919a757d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bf8f3d918ab064cdea0d9bca146a249') in 0.013436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/school/props/book6.fbx
+  artifactKey: Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/book6.fbx using Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cff801690ebf5951a37de8cbda032f94') in 0.044599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/school/Prefabs/props/sheet2.prefab
+  artifactKey: Guid(8e7a095165f9b1042be929150f3913f0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/sheet2.prefab using Guid(8e7a095165f9b1042be929150f3913f0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '357611985f4439a8e1da51fb2d0dc8a5') in 0.048178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/school/Prefabs/road/floor.prefab
+  artifactKey: Guid(405988af1bd38ee4fb92e86058b6c926) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/road/floor.prefab using Guid(405988af1bd38ee4fb92e86058b6c926) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14c0d9b9c9443785477f35fd77fed54f') in 0.021937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/VRM10Shaders.shadervariants
+  artifactKey: Guid(58f01bf8180084642a5f4c17a3c8cd4b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/VRM10Shaders.shadervariants using Guid(58f01bf8180084642a5f4c17a3c8cd4b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a68c420261b9437aced59a5929334f15') in 0.022937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/school/Prefabs/road/doroga.prefab
+  artifactKey: Guid(5b97ca6353ad429419598d36d1a55e6d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/road/doroga.prefab using Guid(5b97ca6353ad429419598d36d1a55e6d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7de3815f1d8d11e6370cef1b00d76fc') in 0.030758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/UtilsSetter.cs
+  artifactKey: Guid(b24a672e82874c9fbfef9c2b2dfdab42) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/UtilsSetter.cs using Guid(b24a672e82874c9fbfef9c2b2dfdab42) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00dd4bd41af9f2c1f1c03123b1d9eec7') in 0.007868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/VRM/VRM_UnlitTransparentZWrite.cs
+  artifactKey: Guid(165ec79b7aac1564a850fb3d3d19396e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/VRM/VRM_UnlitTransparentZWrite.cs using Guid(165ec79b7aac1564a850fb3d3d19396e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d9f48c016fb87651ef93333f05ea139') in 0.009380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_geometry_normal.hlsl
+  artifactKey: Guid(5ddfcfc47ee84eed9365b902bf76ce75) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_geometry_normal.hlsl using Guid(5ddfcfc47ee84eed9365b902bf76ce75) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3a30568e9a96ee53dd1f916053972d4') in 0.017607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon.shader
+  artifactKey: Guid(e0edbf68d81d1f340ae8b110086b7063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon.shader using Guid(e0edbf68d81d1f340ae8b110086b7063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cce7582b3d88823574a4dd20e0db7cd') in 0.025065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/Utils.cs
+  artifactKey: Guid(9d2012c170a74b3db0002f7ecda53622) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/Utils.cs using Guid(9d2012c170a74b3db0002f7ecda53622) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c709fbd747686676b4d853749bd8ee00') in 0.009200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_lighting_unity.hlsl
+  artifactKey: Guid(08491980bb224017bbb8e432761db8c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_lighting_unity.hlsl using Guid(08491980bb224017bbb8e432761db8c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc2705f33b6a043be068283460d44937') in 0.011743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Editor/EditorUtils.cs
+  artifactKey: Guid(531922bb16b74a00b81445116c49b09c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Editor/EditorUtils.cs using Guid(531922bb16b74a00b81445116c49b09c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa338e0685f4d39de50c0ed94a52dadc') in 0.013755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_geometry_vertex.hlsl
+  artifactKey: Guid(92e89e208e604f28acdce8a142d1e241) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_geometry_vertex.hlsl using Guid(92e89e208e604f28acdce8a142d1e241) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16e17cb8f00795d8635c56410dfa03c6') in 0.008052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_forward_vertex.hlsl
+  artifactKey: Guid(26b921255f4e4d62a8c0ec730521831f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_forward_vertex.hlsl using Guid(26b921255f4e4d62a8c0ec730521831f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20911c0cc30fd3783abdd4186e33e6b0') in 0.010380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/UtilsGetter.cs
+  artifactKey: Guid(6724aa45c8c349fabd5954a531301aa8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/UtilsGetter.cs using Guid(6724aa45c8c349fabd5954a531301aa8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b077c49abfa822bd9165e96965dd47f2') in 0.011486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialDescriptor.cs
+  artifactKey: Guid(0844821341efaf644b91bff72f813a2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialDescriptor.cs using Guid(0844821341efaf644b91bff72f813a2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e78cfec37fc8593d21128b54f1ce162e') in 0.011520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/UtilsVersion.cs
+  artifactKey: Guid(4702d4b2c1414cc08b4382c3762eebab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/UtilsVersion.cs using Guid(4702d4b2c1414cc08b4382c3762eebab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6bf160794e670dc0ad530aad29f85aa') in 0.008200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/MToonDefinition.cs
+  artifactKey: Guid(2849b99d94074fcf9e10c5ca3eab15a8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Scripts/MToonDefinition.cs using Guid(2849b99d94074fcf9e10c5ca3eab15a8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cf4056c1e658be57a41113cead2dbcc') in 0.009560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs
+  artifactKey: Guid(6efbb66c1ac168848beead1fe3b16263) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs using Guid(6efbb66c1ac168848beead1fe3b16263) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c8e5950c4f19950bbf4eea666dc0875') in 0.008494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs
+  artifactKey: Guid(173b50f65d2a44109cc67a84f18bde53) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs using Guid(173b50f65d2a44109cc67a84f18bde53) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b64bfc5ab9bc43f5eb721c98cba22bfa') in 0.009609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Tests/CopyTextureTests.cs
+  artifactKey: Guid(3b001f23191141369d3482cfebfaae2f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Tests/CopyTextureTests.cs using Guid(3b001f23191141369d3482cfebfaae2f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4acc68274974b04d6492323c86f1d778') in 0.010551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/Materials/M_Armature_Legs.mat
+  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f87514a66db1fa8fbf0c56a9b1ce2809') in 0.037659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/school/Prefabs/props/book6.prefab
+  artifactKey: Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/book6.prefab using Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd07858b508cfc4e12088f52d4dca34c9') in 0.035010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineMode.cs
+  artifactKey: Guid(8aece52be2cb42de9bfde4a072e5a6a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineMode.cs using Guid(8aece52be2cb42de9bfde4a072e5a6a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2fecdd0d2ac165658e7a66e86b5c6d2') in 0.010064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToonSM4.cginc
+  artifactKey: Guid(17d4e0f990fbc794ab41e4fcc196d559) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToonSM4.cginc using Guid(17d4e0f990fbc794ab41e4fcc196d559) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d48780ac3e3e9fda65ec6129bdade62') in 0.017019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToonSM3.cginc
+  artifactKey: Guid(084281ffd8b1b8e4a8605725d3b0760b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToonSM3.cginc using Guid(084281ffd8b1b8e4a8605725d3b0760b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb9cc73f116be6f3078a782c72abcfc1') in 0.011192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportTypes.cs
+  artifactKey: Guid(b30953f01d374784e8e4de02d649cb06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportTypes.cs using Guid(b30953f01d374784e8e4de02d649cb06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd76f6627290fab092294d50b98ee748') in 0.012315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs
+  artifactKey: Guid(4d6069f2bfbfc0c4c9276e8a5f8b0789) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs using Guid(4d6069f2bfbfc0c4c9276e8a5f8b0789) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fff2c67ecf0a697f509b6a9b4b825aa') in 0.013137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/ITextureSerializer.cs
+  artifactKey: Guid(949143040e6a4a9d987d405d90107d7c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/ITextureSerializer.cs using Guid(949143040e6a4a9d987d405d90107d7c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29ffc1b15ab191a44c5d7fde387707b4') in 0.009344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Converter/OcclusionMetallicRoughnessConverter.cs
+  artifactKey: Guid(9de35f7c2673d5d48b84d494e71f25ff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Converter/OcclusionMetallicRoughnessConverter.cs using Guid(9de35f7c2673d5d48b84d494e71f25ff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ad7ce922d1a0d1a0a4b324126434654') in 0.011895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Util/TextureExtensions.cs
+  artifactKey: Guid(48a12f7410d9670439e5aef512fe0a6c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Util/TextureExtensions.cs using Guid(48a12f7410d9670439e5aef512fe0a6c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0f7c7cb2ad5b98c54888de79e4ef9d1') in 0.008423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/UnityTextureDeserializer.cs
+  artifactKey: Guid(170beedd62e24506acc42b7c04464e84) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/UnityTextureDeserializer.cs using Guid(170beedd62e24506acc42b7c04464e84) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3e8a3aeb05175652d1ebe1b455a9cc6') in 0.008587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10NormalMapKeyword.cs
+  artifactKey: Guid(78ea3fe03cac402083bd53882d186b95) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10NormalMapKeyword.cs using Guid(78ea3fe03cac402083bd53882d186b95) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '177369e35e45b84332697e7bc489909f') in 0.008930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExportTypes.cs
+  artifactKey: Guid(bf56f43baf1e4b47becb7d0ba42a72dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExportTypes.cs using Guid(bf56f43baf1e4b47becb7d0ba42a72dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1ee24b9a95328b7a23107c71ef26023') in 0.011344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/SamplerParam.cs
+  artifactKey: Guid(85fc44cc7e2cb4048866c1e3dfdcf6e0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/SamplerParam.cs using Guid(85fc44cc7e2cb4048866c1e3dfdcf6e0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '072bdec788afb55881a029018e8ed8c6') in 0.012093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10AlphaMode.cs
+  artifactKey: Guid(4915ab0041b841b6aa0cdfecae764008) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10AlphaMode.cs using Guid(4915ab0041b841b6aa0cdfecae764008) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96249f488d944d073a6727681a222d0c') in 0.008889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Samples/Materials/Toon.mat
+  artifactKey: Guid(9639e17dffc656345a70282f7f216672) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Samples/Materials/Toon.mat using Guid(9639e17dffc656345a70282f7f216672) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '296343177be4e381ad77ed9625048adc') in 0.019031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/RuntimeTextureSerializer.cs
+  artifactKey: Guid(57623966155c423ba30bf76d64a66760) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/RuntimeTextureSerializer.cs using Guid(57623966155c423ba30bf76d64a66760) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c6172d88a4400c9e57d992e4a8c5f8c') in 0.008479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ex_OutlineWidth_Screen.mat
+  artifactKey: Guid(4f42a26097c877b40a7616aa60580c43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ex_OutlineWidth_Screen.mat using Guid(4f42a26097c877b40a7616aa60580c43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e40946b236639442cfca543ede7086a') in 0.014524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/school/props/wall4 (2).fbx
+  artifactKey: Guid(cc3095fd348d76b4f9cdcaabdaacdf6d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/wall4 (2).fbx using Guid(cc3095fd348d76b4f9cdcaabdaacdf6d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ba0c890340e514c32e3d1fd9a5123c6') in 0.032124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/school/props/locker_4.fbx
+  artifactKey: Guid(40ec2e2d4a4457448aef97450f4f9113) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/locker_4.fbx using Guid(40ec2e2d4a4457448aef97450f4f9113) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67d3d9d3fe09c75a618e9d01ca76dd3c') in 0.030973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityAlphaToMaskMode.cs
+  artifactKey: Guid(d254dee2e3b3407abcdc3f6f84b3cd59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityAlphaToMaskMode.cs using Guid(d254dee2e3b3407abcdc3f6f84b3cd59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff5ec2ae0de5e9ced122b81622663d77') in 0.009901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10RimMapKeyword.cs
+  artifactKey: Guid(f22a9af9be334674ad2638be0af0c818) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10RimMapKeyword.cs using Guid(f22a9af9be334674ad2638be0af0c818) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd696cb332f6a229b38bc4c08b6a1dacc') in 0.030839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityRenderTag.cs
+  artifactKey: Guid(df547717467444c29ff3dcec1e555e17) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityRenderTag.cs using Guid(df547717467444c29ff3dcec1e555e17) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '216ea282062ddb84061cd467f8bcfa72') in 0.012706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10ParameterMapKeyword.cs
+  artifactKey: Guid(4cf6251408b74e228660a1a43f4de9c9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10ParameterMapKeyword.cs using Guid(4cf6251408b74e228660a1a43f4de9c9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bca2ec5836922ba3967bdfcaef0faf6') in 0.010497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10TransparentWithZWriteMode.cs
+  artifactKey: Guid(d5df515a36d3460891b348872459476f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10TransparentWithZWriteMode.cs using Guid(d5df515a36d3460891b348872459476f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61a0280e4c558c1a5db1eb1fb1307c10') in 0.008606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Prefab/Aika Highschool Uniform.prefab
+  artifactKey: Guid(3ac315adbca70884b9d2b588f658709e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Characters/Hikari Series/Aika/Highschool Uniform/Prefab/Aika Highschool Uniform.prefab using Guid(3ac315adbca70884b9d2b588f658709e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f47c9c76b22576c50eb23030ddc60dc9') in 0.442573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Character/Animations/Jump--Jump.anim.fbx
+  artifactKey: Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Character/Animations/Jump--Jump.anim.fbx using Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '475a86e97ba2209edc0e5e1bf1690e39') in 0.081434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/LICENSE
+  artifactKey: Guid(2a5e8a5d481e3574b8274fa7ce4bdc2d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/LICENSE using Guid(2a5e8a5d481e3574b8274fa7ce4bdc2d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '685d9d22ec1ff8c3ca14da16d4b682ff') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/school/DemoScene/all_objects1_Profiles/PP Profile.asset
+  artifactKey: Guid(eb0c7f947126d924ebdcd292be9be7aa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/DemoScene/all_objects1_Profiles/PP Profile.asset using Guid(eb0c7f947126d924ebdcd292be9be7aa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc3ca401da14ee5cdc34e3127da4b75f') in 0.007623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/school/props/speaker.fbx
+  artifactKey: Guid(2e93ee0f4a411944ca5d229dc4b228e3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/speaker.fbx using Guid(2e93ee0f4a411944ca5d229dc4b228e3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b82e90669dd58b65589f3a9f3660e31e') in 0.030133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef48f2b836fc446258abe4fb6e156cad') in 0.063553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/school/Prefabs/props/board2_1.prefab
+  artifactKey: Guid(b3341dfb909e87841afc69dcda0971e1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/board2_1.prefab using Guid(b3341dfb909e87841afc69dcda0971e1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b688906fa07c4497b397bfca70db174a') in 0.019363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_lighting_mtoon.hlsl
+  artifactKey: Guid(54d13d2ffd7249259772084874b76659) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_lighting_mtoon.hlsl using Guid(54d13d2ffd7249259772084874b76659) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c34d900f0420cd3c65741499c1b7e75') in 0.009840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs
+  artifactKey: Guid(49debef8f9942e8478c291dc7a41870c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs using Guid(49debef8f9942e8478c291dc7a41870c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f0c286ea30b015c3ce3d046459114b4') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/school/Prefabs/props/board2_2 (1).prefab
+  artifactKey: Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/board2_2 (1).prefab using Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c459a46428830c47439fc11976b07de7') in 0.020728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarterAssets_Documentation.pdf
+  artifactKey: Guid(b5f957873a5b82042967195ffffc9063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/StarterAssets_Documentation.pdf using Guid(b5f957873a5b82042967195ffffc9063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '948d7e89546ea96e3d7fa574f9218eb9') in 0.012573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/IAwaitCaller.cs
+  artifactKey: Guid(9cd79193a3dfa7148bb76882f4988071) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/AwaitCaller/IAwaitCaller.cs using Guid(9cd79193a3dfa7148bb76882f4988071) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d8fe85ffef6be65cf0a5c794f45b245') in 0.010396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat
+  artifactKey: Guid(54da18ba3126f1343924588562df72e0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat using Guid(54da18ba3126f1343924588562df72e0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd24f39067b54c05679e6cf03913dc2ca') in 0.010596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/README.md
+  artifactKey: Guid(4918a8517e721c5429d0f8033ae065c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/README.md using Guid(4918a8517e721c5429d0f8033ae065c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '542c0c39f8462956ef46a3ddd5214baa') in 0.007208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/school/Prefabs/props/sheet3.prefab
+  artifactKey: Guid(5f0122993f7c5324d972bf997e494ca3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/sheet3.prefab using Guid(5f0122993f7c5324d972bf997e494ca3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71071c4e29958f1b186aef4d812a24b6') in 0.024915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Transparent.cs
+  artifactKey: Guid(b98a8ee8ca13abb43809305cc4e5571a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Transparent.cs using Guid(b98a8ee8ca13abb43809305cc4e5571a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '799a0bf6c459f782f86a111633687023') in 0.010967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6c5d505852c7744139edc2e312bb197') in 0.009721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Texture.cs
+  artifactKey: Guid(8273e1e61ad8e914baae94d06836f2ad) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/Unlit_Texture.cs using Guid(8273e1e61ad8e914baae94d06836f2ad) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2ee9abd31118a570315900c25bcb20c') in 0.008131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/Art/Models/Ramp_Mesh.fbx
+  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3671aab0c8cea0be767c72824cc185d3') in 0.033234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_define.hlsl
+  artifactKey: Guid(cfd10dec96ea4e3f9fad70e2e5dc148e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_define.hlsl using Guid(cfd10dec96ea4e3f9fad70e2e5dc148e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e27fbb980dffbd26494f2023d195964') in 0.007967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/VRM/VRM_UnlitCutout.cs
+  artifactKey: Guid(611b546ea471ad34cb7d94740c63b558) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/VRM/VRM_UnlitCutout.cs using Guid(611b546ea471ad34cb7d94740c63b558) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b452e9bc32860379dad2deff0744aa08') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs
+  artifactKey: Guid(90dcef1978c51e74386b76d77689dc82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs using Guid(90dcef1978c51e74386b76d77689dc82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3723e88a93fd38894bfbeb11772a7fb') in 0.008957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/DeserializingTextureInfo.cs
+  artifactKey: Guid(83f927a8b2da47b793985326c2e7bd96) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/DeserializingTextureInfo.cs using Guid(83f927a8b2da47b793985326c2e7bd96) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fa0215a055012e7cce5bd2adc7c1e58') in 0.009096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Character/Sfx/Player_Footstep_07.wav
+  artifactKey: Guid(dd1af302b8902684d9381de1f2d3a5af) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Character/Sfx/Player_Footstep_07.wav using Guid(dd1af302b8902684d9381de1f2d3a5af) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ac7a4fb678265eac8f76963c7f26368') in 0.069838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineModeKeyword.cs
+  artifactKey: Guid(94313b3f0f4943d681f40e4cfbd5b600) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineModeKeyword.cs using Guid(94313b3f0f4943d681f40e4cfbd5b600) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5f402a7ecd6ffc1e6754c12b6e32f21') in 0.011672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Animation/Importer/AnimationClipFactory.cs
+  artifactKey: Guid(c82f7416fc3e8a44da2fe940bdb57281) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Animation/Importer/AnimationClipFactory.cs using Guid(c82f7416fc3e8a44da2fe940bdb57281) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a69a30026b17bad4e81bd11741f9461a') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab19d01b8422f4169e4044e90182f2c') in 0.072339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/school/Prefabs/props/computer3.prefab
+  artifactKey: Guid(eae94336b6079e8469f20b721b0474cd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/Prefabs/props/computer3.prefab using Guid(eae94336b6079e8469f20b721b0474cd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1b1ba8c7e0f388f88b4e0bc8a7c7dba') in 0.035329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Animations/Jump--InAir.anim.fbx
+  artifactKey: Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Character/Animations/Jump--InAir.anim.fbx using Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7787acfa88396ee86ec15c02b7caef7c') in 0.046962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/school/props/chair1.fbx
+  artifactKey: Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/school/props/chair1.fbx using Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5236317994cbef5c8287525b241bf34f') in 0.030455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Environment/Prefabs/Structure_Prefab.prefab
+  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e072f31c86c97888a6eaa602d061eeab') in 0.156256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs
+  artifactKey: Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs using Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ec7f047ee7be9e817b06479498d8ff7') in 0.009493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(f86b3aed054db7d4a983e73339478814) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(f86b3aed054db7d4a983e73339478814) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44088eea33b875a4b4a5a1274e64f1d1') in 0.039532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/UniUnlit/Editor/UniUnlitEditor.cs
+  artifactKey: Guid(4c70714358bb2fb4fa96ef08640763fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/UniUnlit/Editor/UniUnlitEditor.cs using Guid(4c70714358bb2fb4fa96ef08640763fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52a420b7d1986b28ffd464b74270cd2f') in 0.008453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityZWriteMode.cs
+  artifactKey: Guid(4c80d709af9c46f9b57290659de4c1c6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityZWriteMode.cs using Guid(4c80d709af9c46f9b57290659de4c1c6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fa722e54cfe6c9e3980c0ba6b4465ef') in 0.007605 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.2 MB). Loaded Objects now: 5892.
+Memory consumption went from 103.7 MB to 102.6 MB.
+Total: 9.190200 ms (FindLiveObjects: 0.726900 ms CreateObjectMapping: 0.707600 ms MarkObjects: 6.985300 ms  DeleteObjects: 0.768500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 5892.
+Memory consumption went from 103.8 MB to 102.6 MB.
+Total: 8.298300 ms (FindLiveObjects: 0.810700 ms CreateObjectMapping: 0.823700 ms MarkObjects: 5.926800 ms  DeleteObjects: 0.735300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

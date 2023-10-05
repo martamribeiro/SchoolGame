@@ -1,0 +1,389 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50243
+Successfully changed project path to: C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
+C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15120] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 1384524517 [EditorId] 1384524517 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15120] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 1384524517 [EditorId] 1384524517 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 261.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020487 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 753 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 272.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2721ms)
+		BeginReloadAssembly (475ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1890ms)
+			LoadAssemblies (471ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (952ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (273ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\SchoolGame\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\SchoolGame\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 574.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4381ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (3875ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (937ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (216ms)
+			SetupLoadedEditorAssemblies (2276ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (575ms)
+				BeforeProcessingInitializeOnLoad (383ms)
+				ProcessInitializeOnLoadAttributes (1031ms)
+				ProcessInitializeOnLoadMethodAttributes (204ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (0.8 MB). Loaded Objects now: 5877.
+Memory consumption went from 232.2 MB to 231.4 MB.
+Total: 9.705800 ms (FindLiveObjects: 0.799000 ms CreateObjectMapping: 0.806900 ms MarkObjects: 7.386200 ms  DeleteObjects: 0.711400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4624.324889 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga
+  artifactKey: Guid(7136ec304def3064fb21aa4ba8a0502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga using Guid(7136ec304def3064fb21aa4ba8a0502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d35f98c04bf887edfdeab2bee9d605e') in 0.223481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 345.006582 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Displacement.tga
+  artifactKey: Guid(079f5a1f3a99b5b45b859abf658a294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Displacement.tga using Guid(079f5a1f3a99b5b45b859abf658a294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d45cf3d8194bd5a5ee6230eb5bb5e3') in 0.048651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.452538 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor
+  artifactKey: Guid(41e485d614b14d64698328c400d3ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor using Guid(41e485d614b14d64698328c400d3ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f651714e37c734f152ee3f6acfd722f4') in 0.002334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.490170 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2
+  artifactKey: Guid(ddba1bb09927d9e469915a5e799f4daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2 using Guid(ddba1bb09927d9e469915a5e799f4daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df9a76278ab167b2a413dcf8611a213') in 0.002662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.513572 seconds.
+  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat
+  artifactKey: Guid(7e57d6bb6a6a1b74795062b56af48f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat using Guid(7e57d6bb6a6a1b74795062b56af48f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2fd8542b701af42511b5c26aae8996') in 0.504256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.896946 seconds.
+  path: Assets/Stylized Texture Pack
+  artifactKey: Guid(185eafa3cf6ae7e41a4fc1878c4ba3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack using Guid(185eafa3cf6ae7e41a4fc1878c4ba3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76296ae9c9f4b28cd82aa278e75a3ff5') in 0.002405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.944565 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png
+  artifactKey: Guid(3bb251356f4521344883f52b8769a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png using Guid(3bb251356f4521344883f52b8769a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a315c9cc611d55b467966454eccec66') in 0.001993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.069654 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01
+  artifactKey: Guid(caafce455726b0d41a71855f42ab203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01 using Guid(caafce455726b0d41a71855f42ab203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f225db7a0ac6372570edcd87b467b50') in 0.002226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035566 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_ambientocclusion.png
+  artifactKey: Guid(4e018737272d86644bc03c12b46fc700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_ambientocclusion.png using Guid(4e018737272d86644bc03c12b46fc700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6009e6ee4a7b20fd1cd2df15e2fab5fa') in 0.050401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_roughness.png
+  artifactKey: Guid(7f596f6f5e72e8e48bef6bba657a72da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_roughness.png using Guid(7f596f6f5e72e8e48bef6bba657a72da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca6aaa7ed8f41a2c1adb60e731e6306') in 0.019428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_normal.png
+  artifactKey: Guid(e54ae3b3605ffb8418b6b7cab0e8c350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_normal.png using Guid(e54ae3b3605ffb8418b6b7cab0e8c350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f3f8d73ab6992e6b61287e098b7ad8') in 0.031849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.176582 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01
+  artifactKey: Guid(6194a35e612bdc54aa2350c2cd37b6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01 using Guid(6194a35e612bdc54aa2350c2cd37b6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71480e4218da0ec2e1ac0cf16fbf91f2') in 0.003319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028717 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_ambientocclusion.png
+  artifactKey: Guid(c9c8b6f67bf99d64d8bfcf23fa947d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_ambientocclusion.png using Guid(c9c8b6f67bf99d64d8bfcf23fa947d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d987c6d3a142e162b98ffe6fc6299cb') in 0.021105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_normal.png
+  artifactKey: Guid(d5e7547688ce04c408d263f9a5eaf74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_normal.png using Guid(d5e7547688ce04c408d263f9a5eaf74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c544c326209863974444af2316ba11ea') in 0.019185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_roughness.png
+  artifactKey: Guid(5f6125fec32821a4fbdbe3e0efc11bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_roughness.png using Guid(5f6125fec32821a4fbdbe3e0efc11bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4e051018e067c5cda9cc9eb7dc02d6') in 0.022377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.734110 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01
+  artifactKey: Guid(fc754780d4cb4844587b55f9a15dfd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01 using Guid(fc754780d4cb4844587b55f9a15dfd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4cfac9d0199d652f53bee61666fe20') in 0.002991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075807 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_ambientocclusion.png
+  artifactKey: Guid(0e7ce0c4f0c2b9641803085b7b6ebe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_ambientocclusion.png using Guid(0e7ce0c4f0c2b9641803085b7b6ebe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938e071cba4e4ca90735795e301dc067') in 0.039136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_normal.png
+  artifactKey: Guid(632d0bbf3f88d944eb49e0fcc9b08e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_normal.png using Guid(632d0bbf3f88d944eb49e0fcc9b08e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54b4db9fad23e73f88bf39bf26b594a') in 0.051374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_roughness.png
+  artifactKey: Guid(ff1f9c960305f724da7851d103ea989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_roughness.png using Guid(ff1f9c960305f724da7851d103ea989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f342798dd0cf34c21c69b6a4fb52934b') in 0.027464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.926211 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01
+  artifactKey: Guid(3d4f9e744f7dcf042a9bf81d98558d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01 using Guid(3d4f9e744f7dcf042a9bf81d98558d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d35a8e85b38d4f9131f6cf43f932687') in 0.002660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055808 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Stylized_Wood_Planks.mat
+  artifactKey: Guid(35b41c12fc368b24688121c75d534e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Stylized_Wood_Planks.mat using Guid(35b41c12fc368b24688121c75d534e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410dd7632c4d511d57815be0023ba618') in 0.048770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_metallic.png
+  artifactKey: Guid(f6429aa0bf5e10c4591a56d42c5ff4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_metallic.png using Guid(f6429aa0bf5e10c4591a56d42c5ff4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9121dee4b05cacfebbff0d78587a75a') in 0.015998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_roughness.png
+  artifactKey: Guid(d5a2f9e7a12cc1e458b440ea40e79b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_roughness.png using Guid(d5a2f9e7a12cc1e458b440ea40e79b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ff892bb92b17217fe45bde68031abe') in 0.023438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.387340 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Stylized_Wood_Planks.mat
+  artifactKey: Guid(35b41c12fc368b24688121c75d534e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Stylized_Wood_Planks.mat using Guid(35b41c12fc368b24688121c75d534e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91ae7c39ec9e03b198eaa37a668482f') in 1.613322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.515399 seconds.
+  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Stylized_Wood_Planks.mat
+  artifactKey: Guid(35b41c12fc368b24688121c75d534e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Stylized_Wood_Planks.mat using Guid(35b41c12fc368b24688121c75d534e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f118376130e72a28f7fd7f1a0ea69a') in 0.062040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 249.734814 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]
+  artifactKey: Guid(28ebadb42d61f0a41bda6da8e11a3b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE] using Guid(28ebadb42d61f0a41bda6da8e11a3b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc819ac22f825e41c370ecb6dd5f7a2') in 0.002634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.786628 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials
+  artifactKey: Guid(7416c3594abb8ef46b740f2078f96bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials using Guid(7416c3594abb8ef46b740f2078f96bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec8b3ed236b4153282b2a2238c79e19') in 0.002266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.578898 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls
+  artifactKey: Guid(08787d435f2fcfc43acc99c4bdf4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls using Guid(08787d435f2fcfc43acc99c4bdf4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12435cbea640397bf0957d6afeeff250') in 0.003110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081192 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_1_mat.mat
+  artifactKey: Guid(6ebbbe4e903a4eb40b5a688c3e2d55b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_1_mat.mat using Guid(6ebbbe4e903a4eb40b5a688c3e2d55b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c82ee7eb2b7d3cb6183c7f8acd75ef') in 0.015667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_3_mat.mat
+  artifactKey: Guid(15c8b6fe0fcddb34299e4650c460b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_3_mat.mat using Guid(15c8b6fe0fcddb34299e4650c460b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b58c4ccdb7c33006016a144eb9b62a') in 0.016451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_5_mat.mat
+  artifactKey: Guid(65680023df6ac38408b7c4cf6203a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_5_mat.mat using Guid(65680023df6ac38408b7c4cf6203a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bce50dfd415731ba1e90ce64f8cf21d') in 0.016490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_4_mat.mat
+  artifactKey: Guid(f45ea82bde94f2c498c7d32d1081ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_4_mat.mat using Guid(f45ea82bde94f2c498c7d32d1081ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b63f3e891a835566f3f670679fac84') in 0.022227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.590653 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_2_mat.mat
+  artifactKey: Guid(62c680a2fa2633c43bea05123469488f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_2_mat.mat using Guid(62c680a2fa2633c43bea05123469488f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77349dcf603913453c1566018ed06aaa') in 0.024336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_5_mat.mat
+  artifactKey: Guid(65680023df6ac38408b7c4cf6203a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/BrickWalls/BrickWall_5_mat.mat using Guid(65680023df6ac38408b7c4cf6203a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a4cdf60afecd1b7669ca14856a6f7b') in 0.048374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.862367 seconds.
+  path: Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_2_mat.mat
+  artifactKey: Guid(65c8789cd6913d548b149ef8dfec6b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra 4K Brick & Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_2_mat.mat using Guid(65c8789cd6913d548b149ef8dfec6b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3b80e20d7de53e40b4a42799940005') in 0.013432 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

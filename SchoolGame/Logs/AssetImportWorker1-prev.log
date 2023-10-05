@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65151
+49192
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
 C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20292] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 793867925 [EditorId] 793867925 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20272] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 898151804 [EditorId] 898151804 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20292] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 793867925 [EditorId] 793867925 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20272] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 898151804 [EditorId] 898151804 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 252.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 259.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009769 seconds.
+Registered in 0.013067 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 657 ms
+Android Extension - Scanning For ADB Devices 697 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 232.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 262.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.913 seconds
+- Completed reload, in  2.615 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1913ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (2615ms)
+		BeginReloadAssembly (311ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1611ms)
-			LoadAssemblies (147ms)
+		EndReloadAssembly (2026ms)
+			LoadAssemblies (313ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1287ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1460ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (834ms)
+				InitializePlatformSupportModulesInManaged (916ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (233ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (263ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020433 seconds.
+Registered in 0.018774 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\SchoolGame\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\SchoolGame\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,46 +122,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 285.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 254.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.994 seconds
+- Completed reload, in  4.239 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2995ms)
-		BeginReloadAssembly (197ms)
+	ReloadAssembly (4241ms)
+		BeginReloadAssembly (271ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (2595ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (3719ms)
+			LoadAssemblies (273ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (715ms)
+			SetupTypeCache (1194ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (1505ms)
+			RebuildScriptCaches (180ms)
+			SetupLoadedEditorAssemblies (1886ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (285ms)
-				BeforeProcessingInitializeOnLoad (267ms)
-				ProcessInitializeOnLoadAttributes (759ms)
-				ProcessInitializeOnLoadMethodAttributes (141ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (255ms)
+				BeforeProcessingInitializeOnLoad (283ms)
+				ProcessInitializeOnLoadAttributes (1073ms)
+				ProcessInitializeOnLoadMethodAttributes (206ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5418 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 67 unused Assets / (0.8 MB). Loaded Objects now: 5877.
 Memory consumption went from 232.2 MB to 231.4 MB.
-Total: 6.109400 ms (FindLiveObjects: 0.556800 ms CreateObjectMapping: 0.543900 ms MarkObjects: 4.493100 ms  DeleteObjects: 0.513900 ms)
+Total: 6.434700 ms (FindLiveObjects: 0.608700 ms CreateObjectMapping: 0.627900 ms MarkObjects: 4.720200 ms  DeleteObjects: 0.476500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,32 +175,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2552.814377 seconds.
-  path: Assets/LowPolyLight/Materials/emission_blue.mat
-  artifactKey: Guid(816d60e886d2a7a4ab5b1fb73f1519b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyLight/Materials/emission_blue.mat using Guid(816d60e886d2a7a4ab5b1fb73f1519b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cee8e2652257ffa3087c0ff343512df') in 2.333492 seconds 
+  Time since last request: 4038.630026 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Materials/Wooden Floor4_4K_Metalness.mat
+  artifactKey: Guid(67065ec8d798d2e44953c90cc76246a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Materials/Wooden Floor4_4K_Metalness.mat using Guid(67065ec8d798d2e44953c90cc76246a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb301f86d59ba751d30cce7b080c8e4f') in 0.506453 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.563405 seconds.
-  path: Assets/LowPolyLight/Prefabs/littleStairLight (Dark).prefab
-  artifactKey: Guid(390f86d0e8325e547be22f9e7ddc7461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyLight/Prefabs/littleStairLight (Dark).prefab using Guid(390f86d0e8325e547be22f9e7ddc7461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1612e70f7418eb4afa9af2afb35aaff') in 0.061850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/LowPolyLight/Prefabs/littleStairLight (Yellow).prefab
-  artifactKey: Guid(50b1c83ea5e809b4ba5b8cbd5c80b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyLight/Prefabs/littleStairLight (Yellow).prefab using Guid(50b1c83ea5e809b4ba5b8cbd5c80b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78fbdfab3ab65db6ff271d30e6ffe2c') in 0.023603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/LowPolyLight/Prefabs/littleStairLight (White).prefab
-  artifactKey: Guid(7eaadca71fab77447860a121cc907048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyLight/Prefabs/littleStairLight (White).prefab using Guid(7eaadca71fab77447860a121cc907048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781384ef24c6a26a27f2226bc0de6aaa') in 0.026400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/LowPolyLight/Prefabs/littleStairLight (Green).prefab
-  artifactKey: Guid(d792ebfb70591714ebef0b38241cbf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyLight/Prefabs/littleStairLight (Green).prefab using Guid(d792ebfb70591714ebef0b38241cbf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254ee292068e3e4d1ce21875067abf97') in 0.026559 seconds 
-AssetImportWorkerClient::OnTransportError - code=10054 error=Uma ligação existente foi forçada a fechar pelo anfitrião remoto.
+  Time since last request: 6.317052 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Gloss.tga
+  artifactKey: Guid(2d48024116e45de41a2b9278769a9750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Gloss.tga using Guid(2d48024116e45de41a2b9278769a9750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be728aa46fdb94ab32e54f99ad63e5b0') in 0.056504 seconds 

@@ -509,11 +509,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.15721942, y: 0.07989858, z: -0.012762677, w: 0.9842439}
     speed: 2
-    m_Value: {x: 0.15869555, y: 0.07987932, z: -0.0128825065, w: 0.98400664}
+    m_Value: {x: -0.15721941, y: -0.07989858, z: 0.012762676, w: -0.98424387}
   m_Size:
     m_Target: 11.318821
     speed: 2
-    m_Value: 11.852169
+    m_Value: 11.318821
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 621
+  controlID: 40
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -857,9 +857,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 27}
-    m_SelectedIDs: 1c390100
-    m_LastClickedID: 80156
-    m_ExpandedIDs: 000000000c81000000ca9a3b
+    m_SelectedIDs: 22810000
+    m_LastClickedID: 33058
+    m_ExpandedIDs: 000000001681000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -887,7 +887,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c81000000ca9a3b
+    m_ExpandedIDs: 0000000016810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -912,9 +912,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fa90ffff
-    m_LastClickedInstanceID: -28422
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 1a810000
+    m_LastClickedInstanceID: 33050
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000086c80000927a00009a9d040056820000ce740000749301009494010054920100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1032,9 +1032,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fa90ffff
-      m_LastClickedID: -28422
-      m_ExpandedIDs: 12fbffff
+      m_SelectedIDs: 1a810000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 10fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

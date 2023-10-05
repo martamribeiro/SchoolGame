@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50243
+62047
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
 C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/SchoolGame/SchoolGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16604] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 1438870086 [EditorId] 1438870086 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7244] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 767616256 [EditorId] 767616256 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16604] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 1438870086 [EditorId] 1438870086 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7244] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 767616256 [EditorId] 767616256 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 270.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 264.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.023087 seconds.
+Registered in 0.020813 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 772 ms
+Android Extension - Scanning For ADB Devices 846 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 276.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 313.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.767 seconds
+- Completed reload, in  2.502 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2769ms)
-		BeginReloadAssembly (463ms)
+	ReloadAssembly (2502ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1926ms)
-			LoadAssemblies (456ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2063ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (1516ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1670ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (978ms)
+				InitializePlatformSupportModulesInManaged (1060ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (277ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
+				RefreshPlugins (314ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025697 seconds.
+Registered in 0.021137 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\SchoolGame\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\SchoolGame\SchoolGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,46 +122,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 542.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 234.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.378 seconds
+- Completed reload, in  3.142 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4380ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (3144ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (3914ms)
-			LoadAssemblies (196ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2691ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (916ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (212ms)
-			SetupLoadedEditorAssemblies (2335ms)
+			SetupTypeCache (666ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1590ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (77ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (543ms)
-				BeforeProcessingInitializeOnLoad (442ms)
-				ProcessInitializeOnLoadAttributes (1052ms)
-				ProcessInitializeOnLoadMethodAttributes (199ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (234ms)
+				BeforeProcessingInitializeOnLoad (310ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5418 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (0.8 MB). Loaded Objects now: 5877.
-Memory consumption went from 232.2 MB to 231.4 MB.
-Total: 8.037000 ms (FindLiveObjects: 0.822300 ms CreateObjectMapping: 0.808300 ms MarkObjects: 5.650700 ms  DeleteObjects: 0.753600 ms)
+Unloading 5552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (2.0 MB). Loaded Objects now: 6000.
+Memory consumption went from 243.6 MB to 241.6 MB.
+Total: 18.136500 ms (FindLiveObjects: 1.340900 ms CreateObjectMapping: 1.288200 ms MarkObjects: 14.180100 ms  DeleteObjects: 1.323200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,109 +173,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4624.288230 seconds.
-  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Gloss.tga
-  artifactKey: Guid(f5e6c3e070d732c47bc9f7b02c519e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Gloss.tga using Guid(f5e6c3e070d732c47bc9f7b02c519e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197ac300cd71113f4f2be3d8ffc57d25') in 0.206210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga
-  artifactKey: Guid(8e343a29d61854e4ea2e2d3a6d86f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga using Guid(8e343a29d61854e4ea2e2d3a6d86f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5661e6540302c4aa46e048405be10f8f') in 0.022486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Displacement.tga
-  artifactKey: Guid(d0340bf4adec4614190161165489af27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Displacement.tga using Guid(d0340bf4adec4614190161165489af27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4065414684661eb764116b4735a8eb3a') in 0.023836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 344.979572 seconds.
-  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Gloss.tga
-  artifactKey: Guid(167cead128e3a7648a4cf839716af3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Gloss.tga using Guid(167cead128e3a7648a4cf839716af3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1ae015e57d7f4d7cfec4f957f4cee5') in 0.045819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 201.483577 seconds.
-  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat
-  artifactKey: Guid(bf276f53291eddb4d9053d2ae81ca063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat using Guid(bf276f53291eddb4d9053d2ae81ca063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909c50b0a1103425ebc702cebf988088') in 0.488974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.998764 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_basecolor.png
-  artifactKey: Guid(85389ccd5c78ce8439961cb4d1434486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_basecolor.png using Guid(85389ccd5c78ce8439961cb4d1434486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e388b37c579306d66f2d6e73ec00178') in 0.050284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_height.png
-  artifactKey: Guid(7f74bacaf53461a4c91967317045495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_01_height.png using Guid(7f74bacaf53461a4c91967317045495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061d7191e9737bec6be798a78fa95adb') in 0.020289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_Tile.mat
-  artifactKey: Guid(1a3143f4ffbd6ea4399783f1bfbd36e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Ground_Tile_01/Ground_Tile.mat using Guid(1a3143f4ffbd6ea4399783f1bfbd36e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ee9cf235e4ae89c6e92c06c5d7802e') in 0.051716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.204672 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_basecolor.png
-  artifactKey: Guid(a04840c0405160e4a91adc5737b88119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_basecolor.png using Guid(a04840c0405160e4a91adc5737b88119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaf588fa10327e24751d81b2164c349') in 0.020974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_height.png
-  artifactKey: Guid(1a58831882f62684d995f7f12832879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/leaf_height.png using Guid(1a58831882f62684d995f7f12832879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f51367e7a69d108bcc235b43cf11751') in 0.018074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/Stylized_Brick_01.mat
-  artifactKey: Guid(82cead14871ca7f46b901b1f422ef471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Brick_01/Stylized_Brick_01.mat using Guid(82cead14871ca7f46b901b1f422ef471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b56f640327499869de036b5a2f2bcf') in 0.031635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.818320 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_basecolor.png
-  artifactKey: Guid(b4d632ff58c388a44bee4888c32128f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_basecolor.png using Guid(b4d632ff58c388a44bee4888c32128f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc055ec9c02aac67c33fa9fc74ac5fca') in 0.036529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stylized_Stone_Tile.mat
-  artifactKey: Guid(c9b7e79e6c2322e4580040e7f6731b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stylized_Stone_Tile.mat using Guid(c9b7e79e6c2322e4580040e7f6731b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf60a94922cbec6b52de8b669b2f44f2') in 0.052336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_height.png
-  artifactKey: Guid(c79b31db4b6913a4b86107cd5d1db350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Stylized_Stone_01/Stone_Tile_01_height.png using Guid(c79b31db4b6913a4b86107cd5d1db350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497753dbab77a03e48bed69c278c62c5') in 0.031883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.994427 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_ambientocclusion.png
-  artifactKey: Guid(71e84546460eabc4794a6d546ccf549e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_ambientocclusion.png using Guid(71e84546460eabc4794a6d546ccf549e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd353e4cd05dddb801d2d9736b469be2e') in 0.018046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_normal.png
-  artifactKey: Guid(9d161b324518f544bb626cea7395f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_normal.png using Guid(9d161b324518f544bb626cea7395f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea371985c1c138c965f6dff5b03c6cf') in 0.024604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_height.png
-  artifactKey: Guid(7ef8a90a84fb6ed44b6486538a30efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Texture Pack/Stylized Texture Pack 2k .png/Wood_Surface_01/Wood_Planks_height.png using Guid(7ef8a90a84fb6ed44b6486538a30efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789a42b90bd52ef767e3992520e03b2d') in 0.019853 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

@@ -12,12 +12,19 @@ public class NPCController : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        if (agent == null)
+        {
+            Debug.LogError("NavMeshAgent not found on NPC.");
+            enabled = false; // Disable the script if there's no NavMeshAgent.
+            return;
+        }
+
         SetRandomDestination();
     }
 
     void Update()
     {
-        if (!agent.pathPending && agent.remainingDistance < 0.1f)
+        if (agent != null && agent.isActiveAndEnabled && agent.isOnNavMesh && !agent.pathPending && agent.remainingDistance < 0.1f)
         {
             SetRandomDestination();
         }

@@ -1,18 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+using StarterAssets;
 
 public class ThirdPersonShooterController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private CinemachineVirtualCamera aimVirtualCamera;
+    [SerializeField] private float normalSensitivity;
+    [SerializeField] private float aimSensitivity;
+
+    private ThirdPersonController thirdPersonController;
+    private StarterAssetsInputs startAssetsInputs;
+
+    private void Awake()
     {
-        
+        thirdPersonController = GetComponent<ThirdPersonController>();
+        startAssetsInputs = GetComponent<StarterAssetsInputs>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (startAssetsInputs.aim)
+        {
+            aimVirtualCamera.gameObject.SetActive(true);
+            thirdPersonController.SetSensitivity(aimSensitivity);
+        }
+        else
+        {
+            aimVirtualCamera.gameObject.SetActive(false);
+            thirdPersonController.SetSensitivity(normalSensitivity);
+        }
     }
+
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.InputSystem.XR;
 
 public class NPCController : MonoBehaviour
 {
@@ -73,5 +74,10 @@ public class NPCController : MonoBehaviour
             audioSource.volume = FootstepAudioVolume;
             audioSource.Play();
         }
+    }
+
+    private void OnFootstep(AnimationEvent animationEvent)
+    {
+        //ignore
     }
 }

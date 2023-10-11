@@ -28296,6 +28296,8 @@ GameObject:
   - component: {fileID: 1155632782}
   - component: {fileID: 1155632783}
   - component: {fileID: 1155632784}
+  - component: {fileID: 1155632785}
+  - component: {fileID: 1155632786}
   m_Layer: 8
   m_Name: PlayerArmatureNPC
   m_TagString: Player
@@ -28428,6 +28430,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxLove: 3
   _lovebar: {fileID: 2030300349}
+--- !u!65 &1155632785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155632774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6673017, y: 2.4862843, z: 0.55757093}
+  m_Center: {x: 0.018351704, y: 1.2957869, z: 0.019624116}
+--- !u!114 &1155632786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155632774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103f580453625f9418c85ae3864d49e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1157565173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44339,6 +44366,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1776223549}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1777891002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1777891003}
+  m_Layer: 8
+  m_Name: SpawnBulletPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777891003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777891002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.453, z: 0.315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3893294199639930361}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1778426505
 GameObject:
   m_ObjectHideFlags: 0
@@ -49017,7 +49075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.33333334, b: 0.7529412, a: 1}
+  m_Color: {r: 1, g: 0.32452828, b: 0.7496781, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -52949,6 +53007,7 @@ Transform:
   m_Children:
   - {fileID: 8338988565591873055}
   - {fileID: 8002264680806281515}
+  - {fileID: 1777891003}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53194,6 +53253,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   debugTransform: {fileID: 995641621}
+  pfBulletProjectile: {fileID: 7813589692198703248, guid: 8b323f1c0f603a241b8fa131433708a8,
+    type: 3}
+  spawnBulletPosition: {fileID: 1777891003}
 --- !u!1001 &7780818868314006410
 PrefabInstance:
   m_ObjectHideFlags: 0
